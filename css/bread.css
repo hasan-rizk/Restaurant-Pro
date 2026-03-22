@@ -1,0 +1,32 @@
+    <!-- start bread -->
+    <section class="menu-section">
+      <h2 class="section-title">BREAD</h2>
+      <div class="bread-items">
+        <div class="menu-item">
+          <div class="item-details">
+            <h3 class="item-name">stout brioche</h3>
+            <p class="item-desc">pimento cheese dip, pickle relish</p>
+          </div>
+
+          <img
+            src="img/Pngtreecheese toast_15904737.png"
+            alt="stout brioche"
+            class="item-img"
+          />
+          <div class="item-price">16$</div>
+        </div>
+
+        <div class="menu-item reverse">
+          <div class="item-details">
+            <h3 class="item-name">pita & dips</h3>
+            <p class="item-desc">carrot-tahini dip, tzatziki</p>
+          </div>
+          <img
+            src="img/Pngtreehummus with pita chips -_20037630.png"
+            alt="pita & dips"
+            class="item-img"
+          />
+          <div class="item-price">16$</div>
+        </div>
+      </div>
+    </section>

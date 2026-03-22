@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T4F Restaurant</title>
+    <link rel="stylesheet" href="../css/tartous.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="main-nav">
+        <div class="nav-container" id="ho">
+            <div class="nav-group" >
+                <a href="#con">Contact</a>
+                <a href="menu2.html">Menu</a>
+            </div>
+            <div class="brand-logo" style="color: white;">T4F</div>
+            <div class="nav-group">
+                <a href="#ab">About</a>
+                <a href="#res">Private Dining</a>
+                <a href="gift.html">gift</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-slider">
+        <div class="slides">
+            <div class="slide active" style="background-image: url('../img/13.jpeg')"></div>
+            <div class="slide" style="background-image: url('../img/1.png')"></div>
+            <div class="slide" style="background-image: url('../img/3.jpeg')"></div>
+        </div>
+        
+        <button class="slider-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="slider-btn next" onclick="moveSlide(1)">&#10095;</button>
+
+        <div class="slider-dots">
+            <span class="dot active" onclick="setSlide(0)"></span>
+            <span class="dot" onclick="setSlide(1)"></span>
+            <span class="dot" onclick="setSlide(2)"></span>
+        </div>
+    </section>
+
+    <section class="parallax-section" id="con">
+        <div class="cards-wrapper">
+            <div class="info-card">
+                <h4 >contact</h4>
+                <p><a href="" style="color: black;">312-492-6262</a></p><br>
+                <p><a href="" style="color: black;">info@test4food.com</a></p>
+                
+                
+            </div>
+            <div class="info-card">
+                <h4>hours</h4>
+                <div class="hours-box" style="color: black;">
+                    <p><strong>Dinner</strong><br>Sunday - Thursday<br>4:30pm - 10pm</p><br>
+                    <p>Friday & Saturday<br>4:30pm - 11pm</p><br>
+                    <p><strong>Sunday Brunch</strong><br>10am - 2pm</p>
+                    
+                    
+                </div>
+            </div>
+            <div class="info-card">
+                <h4>address</h4>
+                <p style="color: black;">Tartous.street, IL<br>Test4Food</p><br>
+                <a href="#" class="action-btn">directions</a>
+                
+                
+            </div>
+        </div>
+    </section>
+  <section class="parallax-section1">
+    <div class="content-container1" id="ab">
+        
+       
+            
+            <div class="additional-text1" >
+                <h1>T4F-Tartous</h1>
+                <p style="color: black; opacity: 60%;">
+                As one of the first restaurants on Syria famed 
+                Restaurant Row in Tartous,
+                 Stephanie Izard’s
+                TEST4FOOD began in 2010
+                 with a goal of serving bold, 
+                global flavors to our local 
+                community (and visitors!).
+                Since then, our desire to treat guests like family has
+                remained the same
+                 (as have our Green Beans) – but 
+                our seasonal flavors, cocktails, 
+                wine and locally-rooted beer are ever-changing</p>
+            </div>
+        </div>
+
+        <div class="left-side1">
+            <div class="side-images1">
+                <img src="../img/4.jpg" alt="Food 1" class="side-img">
+                <img src="../img/7.jpg" alt="Food 2" class="side-img">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    
+<!-- -------------------------القاضي-نهاية ---------------------------- -->
+
+
+    <!-- -------------------------صورة----------------------------- -->
+
+<section class="mid-banner" >
+    <div class="banner-overlay" id="res">
+        <div class="banner-content" >
+            <h2 >Make A Reservation</h2>
+            <button class="banner-btn" onclick="move('Dining.html')">find a table </button>
+        </div>
+    </div>
+</section>
+
+    <!-- ----------------------------نهاية الصورة-------------------------- -->
+  
+<!-- ---------------------------happenings----------------------------------------- -->
+
+    <section class="happenings-section">
+        <h2 class="section-title">happenings</h2>
+
+        <div class="event-item">
+            <div class="event-content">
+                <h3>TEST 4 FOOD</h3>
+                <p style="color: black; opacity: 60%;">Get a front-row view of the action at TEST4FOOD chef’s counter.Slide into your seat andenjoy a chef-selected prix fixemenu filled with bold flavors, unexpected twists, and just the rightamount of surprise</p>
+                <button class="reserve-btn" onclick="move('Dining.html')">Reserve</button>
+            </div>
+            <div class="event-img-box">
+                <img src="../img/5.jpeg" alt="Chef Experience">
+            </div>
+        </div>
+<!-- ---------------------------------------------------------------- -->
+        <div class="event-item reverse">
+            <div class="event-content">
+                <h3>Sticky Glazed Pork Shank</h3>
+                <p style="color: black; opacity: 60%;">Tender, slow-cooked and finished with a rich, sticky glaze, this dish is served with creamy butternut squash, a crunchy chili-lime topping, and bright pickled vegetables. Hot mustard and hoisin mayos on the side add just the right amount of heat and depth. Stop in andtry it for yourself</p>
+                <button class="reserve-btn" onclick="move('Dining.html')">Reserve</button>
+            </div>
+            <div class="event-img-box">
+                <img src="../img/8.jpg" alt="Special Dish">
+            </div>
+        </div>
+<!-- ------------------------------------------------------------- -->
+ <div class="event-item">
+            <div class="event-content">
+                <h3>Sunday Brunch</h3>
+                <p style="color: black; opacity: 60%;">Join us every Sunday from 10am-2pm to enjoy new shareable brunch favorites, handcrafted cocktails, and more. Gather your TEST 4 FOOD crew for delicious dishes and good vibes</p>
+                <button class="reserve-btn" onclick="move('Dining.html')">Reserve</button>
+            </div>
+            <div class="event-img-box">
+                <img src="../img/6986615110469c9b4451defa_6F3A9591_edited-p-800.jpeg" alt="Chef Experience">
+            </div>
+        </div>
+
+
+
+    </section>
+<!-- ------------------------------------------------------------------------ -->
+
+<footer class="site-footer">
+    <div class="newsletter-area">
+        <h3>!join the herd</h3>
+        <p style="color: black;">.Join our mailing list and keep up with all the exciting things</p>
+        <button class="signup-btn" onclick="">sign me up</button>
+    </div>
+
+    <hr class="footer-divider">
+
+    <div class="footer-main-container">
+        <h1 class="footer-logo" ><a href="#ho" style="color: black;text-decoration: none;">T4F Tartous</a></h1>
+
+        <div class="footer-links">
+            <a href="#">website accessibility</a>
+            <a href="#">site map</a>
+            <a href="#">join our team</a>
+            <a href="#">press inquiries</a>
+            <a href="#">email newsletter</a>
+        </div>
+
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>Visit our sister restaurants <a href="Damascus.html">Damascus</a></p>
+        <p>© 2026 T4F Restaurants Group, LLC. All Rights Reserved</p>
+    </div>
+</footer>
+
+    <script src="../js/tartous.js"></script>
+</body>
+</html>

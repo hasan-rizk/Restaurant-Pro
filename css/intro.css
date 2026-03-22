@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    height: 90%;
+}
+
+.images{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.damas-img{
+    position: relative;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/t4f-damascus.png);
+    transition: width 3s ease; 
+}
+
+.damas-img:hover{
+    width: 60%;
+}
+.tart-img:hover+.tart-img{
+    width: 32%;
+}
+
+.tart-img{
+    position: relative;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/t4f-tartous.png);
+    transition: width 3s ease; 
+}
+
+.tart-img:hover{
+    width: 60%;
+}
+.tart-img:hover+.damas-img{
+    width: 32%;
+}
+
+.inner-tar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 0.3s ease;   
+}
+.inner-dam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background-color: black;
+    transition: transform 0.3s ease;   
+}
+
+.inner-dam:hover{
+    color: black;
+    background-color: white; 
+    box-shadow:0px 0px 20px 5px white;
+    transform: scale(1.1);
+}
+
+.inner-tar:hover{
+    color: white;
+    background-color: black; 
+    box-shadow:0px 0px 20px 5px black;
+    transform: scale(1.1);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+    padding: 0%;
+    height: 10%;
+    background-color: #CFA573;
+}
